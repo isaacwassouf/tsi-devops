@@ -33,7 +33,7 @@ services:
   ##### PWA #####
   pwa:
     build:
-      context: ../pwa
+      context: ../tsi-pwa
       dockerfile: Dockerfile
     container_name: tsi_pwa
     ports:
@@ -55,7 +55,7 @@ services:
   ##### API #####
   api:
     build:
-      context: ../api
+      context: ../tsi-api
       dockerfile: Dockerfile
     container_name: tsi_api
     ports:
